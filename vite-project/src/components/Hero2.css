@@ -1,0 +1,70 @@
+.homehero-section {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.homehero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.homehero-top-label {
+  position: relative;
+  z-index: 2;
+  font-size: 2.5rem;
+  font-family: Poppins, sans-serif, Arial;
+  font-weight: 700;
+  margin-bottom: 7rem;
+}
+
+.homehero-yellow {
+  color: #ffb300;
+}
+
+.homehero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.homehero-quote {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.homehero-desc {
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #eee;
+  display: flex;
+  align-items: center;
+}
+
+.homehero-down-btn {
+  position: absolute;
+  bottom: 2rem;
+  left: 95%;
+  transform: translateX(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+}
