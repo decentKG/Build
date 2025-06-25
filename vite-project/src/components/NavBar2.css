@@ -83,7 +83,7 @@ body, html, #root {
 .navbar-menu-item.active,
 .navbar-menu-item:hover {
   color: #FEB300;
-  background-color: rgba(254, 179, 0, 0.1);
+  /* background-color: rgba(254, 179, 0, 0.1); */
 }
 
 /* Search and Action Buttons */

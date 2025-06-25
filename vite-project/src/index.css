@@ -222,7 +222,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('/src/assets/hero.jpg') center/cover no-repeat;
+  background: url('https://i.pinimg.com/736x/0b/35/aa/0b35aa76eec6b544dab843d86f56c364.jpg') center/cover no-repeat;
   font-family: 'Poppins', sans-serif;
 }
 

@@ -1,0 +1,87 @@
+/* Container for the profile images and the "Customer reviews" text */
+.heroC {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(..\assets\hero.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Wrapper for the individual profile images */
+.hero-profiles-wrapper {
+  display: flex; /* Enables flexbox for horizontal arrangement */
+  flex-direction: row-reverse; /* Important: Reverses the order of items, so the first image in JSX appears on the right */
+  margin-bottom: 5px; /* Small space between the profiles and the text */
+  margin-left: 10px;
+}
+
+/* Styling for each individual profile image */
+@keyframes bump {
+  0%, 70%, 100% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.18);
+  }
+  80% {
+    transform: scale(0.92);
+  }
+  85% {
+    transform: scale(1.08);
+  }
+  90% {
+    transform: scale(0.98);
+  }
+}
+
+.profile-img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid transparent;
+  background: linear-gradient(#fff, #fff) padding-box, linear-gradient(135deg, #E2543C, #ffb300) border-box;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  animation: bump 3.6s infinite;
+}
+
+.profile-img:nth-child(1) {
+  z-index: 3;
+  animation-delay: 0.8s;
+}
+
+.profile-img:nth-child(2) {
+  margin-right: -10px;
+  z-index: 2;
+  animation-delay: 0.4s;
+}
+
+.profile-img:nth-child(3) {
+  margin-right: -10px;
+  z-index: 1;
+  animation-delay: 0s;
+}
+
+/* Styling for the "Customer reviews" text */
+.customer-reviews-text {
+  font-family: Arial, sans-serif; /* A common sans-serif font */
+  font-size: 0.8rem; /* Adjust font size to match the screenshot */
+  color: #030303; /* White color for better contrast on background */
+  margin: 0; /* Remove default paragraph margins */
+  white-space: nowrap; /* Prevents the text from wrapping if container is too small */
+}
+
+.heroC-bottomright {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -16,6 +16,7 @@ import Hand from './Hand';
 import NavBar2 from './components/NavBar2';
 import Home from './Home';
 import Login from './Login'
+import Companies from './Companies';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path='/' element={<Login/>}/>
         <Route path='Home' element={<Home/>}/>
         <Route path='Handyman' element={<Hand/>}/>
+        <Route path='Companies' element={<Companies/>}/>
         <Route path='Aboutus' element={<Aboutus/>}/>
 
       </Routes>

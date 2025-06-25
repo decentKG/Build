@@ -6,6 +6,10 @@ import OurTeam from './components/OurTeam'
 import Features from './components/Features'
 import PostingJobs from './components/PostingJobs'
 import User from './components/User'
+import HeroC from './components/HeroC'
+import AboutCompany from './components/AboutCompany'
+import OurServices from './components/OurServices'
+import WhyChooseUs from './components/WhyChooseUs'
 
 const Home = () => {
   return (
@@ -16,9 +20,6 @@ const Home = () => {
       <Features/>
       <PostingJobs/>
       <OurTeam/>
-      <User/>
-      
-
     </>
   )
 }

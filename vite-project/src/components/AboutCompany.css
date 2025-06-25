@@ -1,0 +1,50 @@
+.about-company-section {
+  max-width: 800px;
+  margin: 48px auto 0 auto;
+  padding: 32px 16px 0 16px;
+  background: #fff;
+}
+
+.about-company-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.about-company-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-align: center;
+  flex: 1;
+  margin: 0;
+}
+
+.about-company-reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  min-width: 120px;
+  margin-left: 32px;
+}
+
+.about-company-reviews-label {
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 2px;
+}
+
+.about-company-stars {
+  color: #ffb300;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.about-company-description {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #222;
+  margin: 0 auto;
+  max-width: 700px;
+  line-height: 1.5;
+} 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import heroBg from '../assets/hero.jpg';
+import heroBg from '../assets/hero12.png';
 
 const Homehero = () => {
   const [isAtBottom, setIsAtBottom] = useState(false);
